@@ -97,6 +97,7 @@ class _HomePageState extends State<HomePage> {
           }
           setState(() {
             markers[0] = Marker(
+              id: "",
               point: points[pointIndex],
               anchorPos: AnchorPos.align(AnchorAlign.center),
               height: 30,
