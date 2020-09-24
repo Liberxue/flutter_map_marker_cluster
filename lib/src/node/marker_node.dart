@@ -21,5 +21,8 @@ class MarkerNode implements Marker {
   LatLng get point => marker.point;
 
   @override
+  String get id => marker.id;
+
+  @override
   double get width => marker.width;
 }
